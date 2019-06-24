@@ -1,2 +1,2 @@
-*.params binary
+*.params filter=lfs diff=lfs merge=lfs -binary
 *.caffemodel binary
