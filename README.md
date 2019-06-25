@@ -8,9 +8,21 @@
 - Create sandbox directory and project directory
 - Checkout this repository using git into your project directory
 - Setup anaconda project
-- pip install trueface
+- install trueface from this project using pip
 - conda install jupyter
 - pip install --user mxnet-cu101
 - pip install matplotlib
 - pip install keras_retinanet
 - pip install tensorflow_gpu
+
+~~~~
+from trueface.recognition import FaceRecognizer
+from trueface.video import VideoStream
+import cv2
+import sys
+from matplotlib.pyplot import imshow
+import matplotlib.pyplot as plt
+%matplotlib inline
+import numpy as np
+~~~~
+
